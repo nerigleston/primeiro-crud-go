@@ -1,13 +1,4 @@
-# Swagger API Documentation
-
-This document provides documentation for the CRUD operations on users using the Swagger-generated API.
-
-## Swagger Info
-
-- **Version:** 1.0
-- **Host:** localhost:8080
-- **Base Path:** /
-- **Schemes:** HTTP
+# API Documentation
 
 ## Description
 
