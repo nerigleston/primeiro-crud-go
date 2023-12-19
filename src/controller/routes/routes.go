@@ -4,9 +4,6 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/nerigleston/primeiro-crud-go/src/controller"
 	"github.com/nerigleston/primeiro-crud-go/src/model"
-
-	swaggerfiles "github.com/swaggo/files"
-	ginSwagger "github.com/swaggo/gin-swagger"
 )
 
 func InitRoutes(
@@ -21,5 +18,4 @@ func InitRoutes(
 
 	r.POST("/login", userController.LoginUser)
 
-	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerfiles.Handler))
 }
